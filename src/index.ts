@@ -11,9 +11,6 @@ export default {
 		}
 
 		try {
-			// Verify the webhook signature if provided
-			// You can add Webflow webhook signature verification here if needed
-
 			// Parse the webhook payload
 			const payload = await request.json();
 
